@@ -33,7 +33,7 @@ h2 {
   padding: 1rem;
 }
 
-.scores-section{
+.scores-section {
   width: 100%;
   max-width: 96rem;
   margin: 0 auto;
@@ -47,7 +47,7 @@ h2 {
   align-items: center;
 }
 
-.score-panel-header, 
+.score-panel-header,
 .score-form-header {
   margin-bottom: 2rem;
 }
