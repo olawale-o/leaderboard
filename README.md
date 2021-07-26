@@ -35,3 +35,6 @@ Feel free to check the [issues page.](https://github.com/olawale-o/leaderboard/i
 # Show your support
 Give a :star: if you like this project!
 
+# Acknowledgements
+- Micoverse
+- [LeaderBoard API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
