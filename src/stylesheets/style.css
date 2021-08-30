@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
 *,
 *::before,
 *::after {
@@ -12,6 +14,7 @@ html {
 
 body {
   font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -25,12 +28,22 @@ h2 {
 li {
   list-style: none;
   font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  padding: 1rem 2.5rem;
+  outline: none;
+  border: none;
+  color: #fff;
 }
 
 .nav {
   width: 100%;
-  max-width: 76rem;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  margin: 0 auto 2rem;
 }
 
 .container {
@@ -52,6 +65,14 @@ li {
   align-items: center;
 }
 
+.scores-list li:nth-child(even) {
+  background: #ccc;
+}
+
+.scores-list li:nth-child(odd) {
+  background: #fff;
+}
+
 .score-panel-header,
 .score-form-header {
   margin-bottom: 2rem;
@@ -59,4 +80,15 @@ li {
 
 .score-panel-header h2 {
   margin-right: 2rem;
+}
+
+.field {
+  width: 50%;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem 0.35rem;
 }

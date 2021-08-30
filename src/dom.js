@@ -4,7 +4,7 @@ const createScore = ({ score, user }) => {
   const spanName = document.createElement('span');
   spanName.textContent = user;
   const spanCol = document.createElement('span');
-  spanCol.textContent = ' : ';
+  spanCol.textContent = ': ';
   const spanScore = document.createElement('span');
   spanScore.textContent = score;
   div.append(spanName, spanCol, spanScore);
